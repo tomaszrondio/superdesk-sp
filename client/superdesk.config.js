@@ -37,14 +37,26 @@ module.exports = function(grunt) {
             }
         },
 
+        // publisher: {
+        //     protocol: 'https',
+        //     tenant: process.env.PUBLISHER_API_SUBDOMAIN || '',
+        //     domain: process.env.PUBLISHER_API_DOMAIN || 'localhost',
+        //     base: 'api/v2',
+        //     wsDomain: process.env.PUBLISHER_WS_DOMAIN || process.env.PUBLISHER_API_DOMAIN,
+        //     wsPath: process.env.PUBLISHER_WS_PATH || '',
+        //     wsPort: process.env.PUBLISHER_WS_PORT || '8080'
+        // },
+
         publisher: {
-            protocol: 'https',
-            tenant: process.env.PUBLISHER_API_SUBDOMAIN || '',
-            domain: process.env.PUBLISHER_API_DOMAIN || 'localhost',
-            base: 'api/v2',
-            wsDomain: process.env.PUBLISHER_WS_DOMAIN || process.env.PUBLISHER_API_DOMAIN,
-            wsPath: process.env.PUBLISHER_WS_PATH || '',
-            wsPort: process.env.PUBLISHER_WS_PORT || '8080'
+            protocol: "https",
+            tenant: "sp-demo-tribune.s-lab",
+            domain: "sourcefabric.org",
+            base: "api/v2",
+            wsDomain: "sp-magazine.s-lab.sourcefabric.org",
+            wsPath: "",
+            wsPort: "8080",
+            hideContentRoutesInPublishPane: false,
+            hideCustomRoutesInPublishPane: false,
         },
 
         langOverride: {

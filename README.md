@@ -75,6 +75,11 @@ More options and details:
 - [for users](https://github.com/superdesk/fireq/tree/files/superdesk)
 - [for developers](https://github.com/superdesk/fireq/tree/files/superdesk#development)
 
+### Extracting translation file
+```
+npx @superdesk/build-tools extensions extract-translations ./
+```
+
 ### Questions and issues
 
 - Our [issue tracker](https://dev.sourcefabric.org/projects/SD) is only for bug reports and feature requests.
