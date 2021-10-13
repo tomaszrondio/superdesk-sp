@@ -2,11 +2,11 @@
     "name": "superdesk",
     "license": "GPL-3.0",
     "dependencies": {
-        "superdesk-core": "github:superdesk/superdesk-client-core#develop",
+        "superdesk-core": "github:superdesk/superdesk-client-core#v2.3.1",
         "superdesk-publisher": "superdesk/superdesk-publisher#master"
     },
     "devDependencies": {
-        "@superdesk/build-tools": "^1.0.16"
+        "@superdesk/build-tools": "^2.0.1"
     },
     "scripts": {
         "build": "npx @superdesk/build-tools build-root-repo ./"
